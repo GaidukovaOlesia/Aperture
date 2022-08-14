@@ -56,7 +56,7 @@ header nav ul li:last-of-type a{
 }
 .box-background{
     height: 100vh;
-    padding-top: 421px;
+    padding-top: 401px;
     box-sizing: border-box;
     background-image: url('../images/IMAGE-1.jpg');
     background-size: cover;
@@ -78,6 +78,7 @@ header nav ul li:last-of-type a{
     font: 54px/59px 'Poppins';
     text-align: center;
     color: #FFFFFF;
+    margin-bottom: 18px;
 }
 .text{
     font: 14px/20px 'Poppins';
@@ -93,11 +94,7 @@ header nav ul li:last-of-type a{
     right: 40px;
 }
 .fixed_information li{
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 12px;
+    font: 12px/12px'Poppins';
     color: #FFFFFF;
     margin-left: 16px;
 }
@@ -118,6 +115,8 @@ header nav ul li:last-of-type a{
     width: 16px;
     height: 16px;
     margin-right: 6px;
+    position: relative;
+    top: 6px;
 }
 .fixed_information li:nth-child(3):before{
     content: "";
@@ -126,6 +125,8 @@ header nav ul li:last-of-type a{
     width: 32px;
     height: 16px;
     margin-right: 6px;
+    position: relative;
+    top: 6px;
 }
 .fixed_information li:last-of-type:before{
     content: "";
@@ -134,4 +135,57 @@ header nav ul li:last-of-type a{
     width: 10px;
     height: 16px;
     margin-right: 6px;
+    position: relative;
+    top: 6px;
+}
+.box-background-black{
+    padding-top: 120px;
+    padding-bottom: 100px;
+    background: #000000;
+    border-radius: 0px;
+    background-size: cover;
+}
+.past{
+    font: 40px/42px 'Poppins';
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 15px;
+}
+.trusted{
+    font: 24px/30px 'Poppins';
+    text-align: center;
+    color: #C0C0C0;
+    margin-bottom: 40px;
+}
+.trusted.margin{
+    margin-bottom: 12px;
+}
+.box-need{
+    max-width: 600px;
+    margin: auto;
+}
+.get{
+    display: block;
+    max-width: 154px;
+    margin: auto;
+    background: #FFFFFF;
+    border-radius: 14px;
+    font: 16px/20px 'Poppins';
+    text-align: center;
+    letter-spacing: 0.4px;
+    color: #000000;
+    text-decoration: none;
+    padding-bottom: 10px;
+
+}
+.get:before{
+    content: "";
+    display: inline-block;
+    background-image: url("../images/Frame.svg");
+    border-radius: 2px;
+    width: 32px;
+    height: 32px;
+    margin-right: 6px;
+    position: relative;
+    top: 8px;
 }
