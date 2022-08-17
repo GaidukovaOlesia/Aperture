@@ -56,16 +56,19 @@ header nav ul li:last-of-type a{
 }
 .box-background{
     height: 100vh;
-    padding-top: 401px;
     box-sizing: border-box;
     background-image: url('../images/IMAGE-1.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding-bottom: 71px;
 }
 .body{
     max-width: 580px;
-    margin: auto;
+
 }
 .heading{
     font: 14px/20px 'Poppins';
@@ -161,13 +164,11 @@ header nav ul li:last-of-type a{
     margin-bottom: 12px;
 }
 .box-need{
-    max-width: 600px;
+    text-align: center;
     margin: auto;
 }
 .get{
-    display: block;
-    max-width: 154px;
-    margin: auto;
+    display: inline-block;
     background: #FFFFFF;
     border-radius: 14px;
     font: 16px/20px 'Poppins';
@@ -176,11 +177,13 @@ header nav ul li:last-of-type a{
     color: #000000;
     text-decoration: none;
     padding-bottom: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
 
 }
 .get:before{
     content: "";
-    display: inline-block;
+    display: inline-flex;
     background-image: url("../images/Frame.svg");
     border-radius: 2px;
     width: 32px;
@@ -188,4 +191,29 @@ header nav ul li:last-of-type a{
     margin-right: 6px;
     position: relative;
     top: 8px;
+
+
+}
+.portfolio{
+  background-image: url("../images/portfolio.png");
+    min-height: 600px;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.portfolio .sub-container{
+    max-width: 298px;
+    margin-right: 62px;
+}
+.portfolio .sub-container h3{
+    font: 14px/20px 'Poppins';
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.portfolio .sub-container p{
+    font: 14px/20px'Poppins';
+    color: #C0C0C0;
 }
