@@ -160,6 +160,27 @@ header nav ul li:last-of-type a{
     color: #C0C0C0;
     margin-bottom: 40px;
 }
+.owl-carousel .logo{
+    max-width: 128px;
+    margin: auto;
+}
+.owl-carousel .owl-dots .owl-dot span{
+    background: white;
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    border-radius: 50%;
+    margin: 10px;
+}
+.owl-carousel .owl-dots{
+    margin: auto;
+    text-align: center;
+}
+.owl-carousel .owl-dots .owl-dot.active span{
+    width: 20px;
+    height: 20px;
+}
+
 .trusted.margin{
     margin-bottom: 12px;
 }
