@@ -148,6 +148,17 @@ header nav ul li:last-of-type a{
     border-radius: 0px;
     background-size: cover;
 }
+.box-background-black .d_flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+.owl-carousel .owl-stage{
+    display: flex;
+    align-items: center;
+}
+.owl-carousel .owl-dots{
+    display: flex;
+}
 .past{
     font: 40px/42px 'Poppins';
     text-align: center;
