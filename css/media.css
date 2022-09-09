@@ -1,0 +1,14 @@
+@media screen and (max-width: 768px){
+    .cd-3d-nav-trigger{
+display: block;
+    }
+    header nav ul{
+        display: none;
+    }
+    .container{
+        padding: 0 15px;
+    }
+
+
+
+}
